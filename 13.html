@@ -1,0 +1,124 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+ <form>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+ 
+  Gender
+  <input type="radio" name="gender" value="male" checked> Male
+  <input type="radio" name="gender" value="female"> Female
+  <br/><br/> <br/>
+
+  <fieldset>
+    <legend>Personal information:</legend>
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey"><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse"><br><br>
+    <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+  </fieldset> <br/> <br/> <br/>
+
+  
+   <select name="cars">
+   <option value="">Select Option</option>
+   <option value="volvo">cars</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab" >Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select> <br/><br/> <br/>
+
+
+ <textarea name="message" rows="5" cols="25">
+The cat was playing in the garden.
+</textarea> <br/> <br/>
+
+ <button type="button" onclick="alert('Hello World!')">Click Me!</button> <br/> <br/>
+
+
+
+ Password :<input type="password" name="psw"> <br/> <br/>
+  
+  <input type="checkbox" name="vehicle1" value="Bike" checked> I have a bike<br>
+  <input type="checkbox" name="vehicle2" value="Car"> I have a car  <br/> <br/>
+
+   Quantity (between 1 and 5):
+  <input type="number" name="quantity" min="1" max="5"> <br/> <br/>
+  
+   Quantity:
+  <input type="number" name="points" min="0" max="100" step="10" value="30"> <br/> <br/>
+  
+   Birthday:
+  <input type="date" name="bday"> <br/> <br/>
+
+  	Select your favorite color:
+  <input type="color" name="favcolor"> <br/> <br/>
+
+  
+  <input type="range" name="points" min="0" max="10"> <br/> <br/>
+
+  
+  	Birthday (month and year):
+  <input type="month" name="bdaymonth"> <br/> <br/>
+
+  
+  	Select a week:
+  <input type="week" name="week_year"><br/> <br/>
+
+  
+  	Select a time:
+  <input type="time" name="usr_time"> <br/> <br/>
+
+
+
+  
+   Birthday (date and time):
+  <input type="datetime-local" name="bdaytime"> <br/> <br/>
+
+  
+   E-mail:
+  <input type="email" name="email"><br/> <br/>
+
+  
+   Search Google:
+  <input type="search" name="googlesearch"> <br/> <br/>
+
+  
+   Telephone:
+  <input type="tel" name="usrtel"> <br/> <br/>
+
+  
+  	Add your homepage:
+  <input type="url" name="homepage"> <br/> <br/>
+
+
+<form action="1.php" method="post">
+  
+  First name:<br>
+<input type="text" name="firstname" value="John" readonly> <br/> <br/>
+
+First name:<br>
+<input type="text" name="firstname" value="John" disabled>
+
+First name:<br>
+<input type="text" name="firstname" value="John" size="80">
+
+First name:<br>
+<input type="text" name="firstname" maxlength="10"  minlength="10">
+
+First name:<input type="text" name="fname" autofocus> <br/>
+<input type="text" name="fname" placeholder="First name"> <br/>
+ 
+ Username: *<input type="text" name="usrname" required> <br/>
+ <input type="submit" />
+</form>
+</form> 
+</form>
+ </body>
+</html> 
